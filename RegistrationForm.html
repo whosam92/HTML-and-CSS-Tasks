@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      label {
+        margin: 8px;
+      }
+
+      input {
+        margin: 8px;
+        align-items: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Regisration Form</h1>
+    <form>
+      <label> User ID: </label>
+      <input /><br />
+
+      <label> Password: </label>
+      <input /><br />
+
+      <label> Name: </label>
+      <input /><br />
+
+      <label> Address: </label>
+      <input /><br />
+
+      <label> Country: </label>
+      <select>
+        <option>(Please select a country)</option>
+        <option>Jordan</option>
+        <option>USA</option>
+        <option>KSA</option></select
+      ><br />
+
+      <label> ZIP Code: </label>
+      <input /><br />
+      <label> Email: </label>
+      <input /><br />
+
+      <label> Sex: </label>
+      <input type="radio" name="sex" />Male<input
+        type="radio"
+        name="sex"
+      />Female
+      <br />
+      <label> Languages: </label>
+      <input type="checkbox" />English<input type="checkbox" />None English
+      <br />
+      <div style="display: flex; padding: 5px">
+        <div style="margin-top: 7px">About:</div>
+        <input
+          type="text"
+          style="height: 100px; width: 280px; margin-top: 10px"
+        />
+      </div>
+      <br />
+      <button style="margin-left: 11%">Submit</button>
+    </form>
+  </body>
+</html>
