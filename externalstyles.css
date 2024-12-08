@@ -1,0 +1,58 @@
+body {
+  
+    background-color: #FFFFDB;
+    margin-right: 300px;
+}
+
+h1 {
+  
+    color: black;
+    margin-bottom: 20px;
+}
+
+.article {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.article h2 {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+.highlight {
+    background-color: orange;
+    font-weight: bold;
+}
+
+.highlight1 {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.art3{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: red;
+ 
+}
+
+.article3_inside {
+color: red;
+ border: 2px dashed red;
+ padding: 10px;
+}
+
+.article3_outside {
+    color: red;
+     border: 2px dashed red;
+     padding: 20px;
+     margin-bottom: 20px;
+     background-color: white;
+    }
