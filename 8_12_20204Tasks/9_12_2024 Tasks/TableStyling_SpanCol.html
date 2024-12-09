@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Styling</title>
+</head>
+<body>
+    
+    <style>
+        table {
+          border: none solid black;
+          border-collapse: collapse;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+      
+        th {
+    border: 1px solid rgb(244, 244, 244);
+    border-collapse: collapse;
+    background-color: #68a8bb;
+        }
+.allmodes{
+background-color: #b2cb80;
+opacity: 0.5;
+font-weight: bold;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cells_in{
+    background-color: #d6eaf1;
+    border:white solid 1px;
+}
+.uprow{
+    background-color: #92c4d4;
+    border:white solid 1px;
+}
+
+td{
+    background-color: #92c4d4;
+    border:white solid 1px;
+}
+        
+        </style>
+        </head>
+        <body>
+        
+        <table style="width: 100%;">
+        <colgroup>
+          <col span="" style="background-color: #92c4d4">
+        </colgroup>
+        <tr>
+            <th rowspan="2">Main mode</th>
+            <th colspan="7">Area of workplace </th>
+                        </tr>
+
+        <tr>
+        <th class="uprow">Main mode</th>
+        <th class="uprow">Central London</th>
+        <th class="uprow">Rest of Inner london</th>
+         
+        <th class="uprow">Outer London</th>
+        <th class="uprow">All London</th>
+        <th class="uprow">Rest of Great Britain</th>
+        <th class="uprow">Great Britain</th>
+        
+        </tr>
+        <tr>
+        <td>Car and Van</td>
+        <td class="cells_in">48</td>
+        <td class="cells_in">32</td>
+        <td class="cells_in">25</td>
+        <td class="cells_in">29</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+
+        </tr>
+        <tr>
+        <td>Motorbike,moped,scooter</td>
+        <td class="cells_in">48</td>
+        <td class="cells_in">32</td>
+        <td class="cells_in">25</td>
+        <td class="cells_in">29</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        </tr>
+        <tr>
+        <td>Bicycle</td>
+        <td class="cells_in">48</td>
+        <td class="cells_in">32</td>
+        <td class="cells_in">25</td>
+        <td class="cells_in">29</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        </tr>
+        <tr>
+        <td>Bus and coach</td>
+        <td class="cells_in">48</td>
+        <td class="cells_in">32</td>
+        <td class="cells_in">25</td>
+        <td class="cells_in">29</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        <td class="cells_in">20</td>
+        </tr>
+        <tr>
+            <td>National Rail</td>
+            <td class="cells_in">36</td>
+            <td class="cells_in">29</td>
+            <td class="cells_in">27</td>
+            <td class="cells_in">31</td>
+            <td class="cells_in">19</td>
+            <td class="cells_in">21</td>
+            <td class="cells_in">21</td>
+            </tr>
+            <tr>
+                <td>Underground trail</td>
+                <td class="cells_in">36</td>
+                <td class="cells_in">29</td>
+                <td class="cells_in">27</td>
+                <td class="cells_in">31</td>
+                <td class="cells_in">19</td>
+                <td class="cells_in">21</td>
+                <td class="cells_in">21</td>
+                </tr>
+
+                <tr>
+                    <td>Walk</td>
+                    <td class="cells_in">36</td>
+        <td class="cells_in">29</td>
+        <td class="cells_in">27</td>
+        <td class="cells_in">31</td>
+        <td class="cells_in">19</td>
+        <td class="cells_in">21</td>
+        <td class="cells_in">21</td>
+                    </tr>
+
+                    <tr>
+                        <td style="background-color:#b2cb80">All modes</td>
+                        <td class="allmodes">23</td>
+                        <td class="allmodes">24</td>
+                        <td class="allmodes">25</td>
+                        <td class="allmodes">26</td>
+                        <td class="allmodes">27</td>
+                        <td class="allmodes">28</td>
+                        <td class="allmodes">28</td>
+                        </tr>
+        </table>
+
+</body>
+</html>
