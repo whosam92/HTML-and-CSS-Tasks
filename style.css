@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    gap: 10px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.header, .footer {
+    grid-column: span 60;
+    background-color: #87ceeb;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: #add8e6;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer {
+    font-size: 16px;
+}
+
+.footer .why {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .because {
+    margin-top: 5px;
+}
